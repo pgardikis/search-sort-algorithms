@@ -16,7 +16,7 @@ authors = [{ name = "pgardikis" }]
 # libraries float, tools are pinned so every run uses the same version
 test = ["pytest>=7"]
 ci = ["pytest-github-actions-annotate-failures==0.4.2"]
-lint = ["ruff==0.16.8"]
+lint = ["ruff==0.16.9"]
 
 [project.scripts]
 search-sort = "search_sort.cli:main"
